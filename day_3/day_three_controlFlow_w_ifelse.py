@@ -2,6 +2,14 @@
 # In this code, we will use if / else statements to control the flow of the program
 # and make decisions based on certain conditions.
 
+#comparison ops
+# > great than
+# < less than
+# >= greater than or equal to
+# <= less than or equal to
+# == equal to
+# != not equal to
+
 water_level = 50  # Example water level in cm
 # Check if the water level is above or below a certain threshold
 
