@@ -1,0 +1,18 @@
+def turn_right(): #created a function to turn right
+    turn_left()
+    turn_left()
+    turn_left()
+
+def front_check(): #created a function to check the front
+    while wall_in_front():
+        turn_left()
+    if right_is_clear():
+        turn_right()
+    if front_is_clear():
+        move()
+    
+put() #putting the object down
+while True: #created an infinite loop
+    front_check() #checking the front
+    if object_here(): #checking if the object is here
+        done() #done if the object is here
